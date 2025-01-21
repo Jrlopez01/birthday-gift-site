@@ -1,0 +1,74 @@
+body {
+    background: linear-gradient(#838768, #56714D); 
+    text-align: center;
+}
+
+#pfp {
+    width: 300px;
+    border-radius: 100%;
+    border: 7px solid #6d1c17;
+}
+
+
+.gift-img {
+    height: 400px;
+    width: 450px;
+    border: 6px solid white;
+    
+    background-image: url("/images/gift-wrap.jpg");
+    background-size: cover;
+}
+
+#gift-img-eating:hover {
+    background-image: url("/images/eating_v2.gif");
+ 
+}
+
+#gift-img-laughing:hover {
+    background-image: url("/images/laugh.gif");
+  
+}
+
+#gift-img-fighting:hover {
+    background-image: url("/images/fighting.gif");
+    
+}
+
+@font-face {
+    font-family: pirates;
+    src: url("/fonts/Quad\ Serif.ttf");   
+}
+
+@font-face {
+    font-family: road;
+    src: url("/fonts/Road\ Shot.ttf");
+}
+
+h1{
+    font-family: pirates;
+    font-size: 50px;
+}
+
+h2, h3{
+    font-family: road;
+    
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.red-highlight {
+    background-color: #6d1c17;
+    padding: 5px 10px;
+}
+
+.underline {
+    border-bottom: 3px solid #6d1c17;
+    padding: 2px 50px;
+}
+
+.gift-container {
+    margin: 60px 0px;
+
+}
